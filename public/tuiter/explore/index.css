@@ -1,0 +1,83 @@
+body {
+    font-family: "Arial";
+    background-color: black;
+    color: white;
+    border-left:1px solid rgb(47, 51, 54);
+    border-right:1px solid rgb(47, 51, 54);
+}
+
+.wd-search-bar {
+    width: 90%;
+    border-radius: 12px;
+    padding: 4px;
+    background-color: rgb(47, 51, 54);
+}
+
+.wd-gear-icon{
+    position: relative;
+    left: 12px;
+    color:rgb(29,161,242);
+    font-size: 20px;
+}
+
+.wd-nav-tabs {
+    width: 100%;
+    color: rgb(29,161,242);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.wd-nav-tabs li {
+    list-style-type: none;
+    display: inline-block;
+    width: 16%;
+    text-align: center;
+    color: rgb(110,118,125);
+}
+
+.wd-nav-tabs .wd-selected {
+    color: rgb(29,161,242);
+}
+
+.wd-nav-tabs .wd-selected-text {
+    font-size: 15px;
+    padding: 16px;
+    border-bottom: 4px solid rgb(29,161,242);
+}
+
+
+.wd-page {
+    width: 100%;
+    height: fit-content;
+}
+
+.wd-image
+{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 16px;
+    float: right;
+    border-radius: 25px;
+}
+
+.wd-float-done{
+    clear: both;
+}
+
+.wd-tuit-block{
+    border-bottom:1px solid rgb(47, 51, 54);
+    width: 100%;
+    line-height: 20%;
+    padding: 16px;
+}
+
+.wd-topic{
+    font-size: 13px;
+    color:rgb(110,118,125);
+}
+
+.wd-author{
+    color: white;
+    font-size: 15px;
+}

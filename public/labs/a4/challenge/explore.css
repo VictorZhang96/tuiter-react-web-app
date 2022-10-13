@@ -1,0 +1,55 @@
+.btn-primary.override-bs{
+    border-radius: 20px;
+}
+
+.form-rounded {
+    border-radius: 20px;
+}
+.wd-search-tuiter {
+    bottom: 6px;
+    left: 20px;
+}
+
+.wd-nav-tabs {
+    width: 100%;
+    color: rgb(29,161,242);
+}
+
+.wd-nav-tabs li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.wd-nav-tabs .wd-selected {
+    padding-bottom: 6px;
+    border-bottom: solid 4px rgb(29,161,242);
+}
+.bottom-left {
+    position: relative;
+    bottom: 53px;
+    left: 16px;
+}
+
+.search-background-color {
+    background-color: gray;
+}
+
+.border-line {
+    border-left: solid 1px gray;
+    border-right: solid 1px gray;
+}
+
+.rounded-top-20 {
+    border-top-right-radius: 20px!important;
+    border-top-left-radius: 20px!important;
+}
+
+.rounded-bottom-20 {
+    border-bottom-left-radius: 20px!important;
+    border-bottom-right-radius: 20px!important;
+}
+
+::placeholder {
+    color: lightgray !important;
+}

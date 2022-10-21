@@ -53,9 +53,8 @@ const NavigationSidebar = (active) => {
         Tweet</a>
    </div>
    <script>
-        const activeComponent = document.getElementById(active);
-        activeComponent.classList.add("active");
-    </script>
+        ${active}.classList.add('active');
+   </script>
  `);
 }
 export default NavigationSidebar;

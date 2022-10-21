@@ -1,16 +1,16 @@
-const NavigationSidebar = () => {
+const NavigationSidebar = (active) => {
     return (`
    <div class="list-group">
     <a href="../tuit.html"
         class="list-group-item list-group-item-action fab fa-twitter ">
     </a>
-    <a href="../../labs/a5/challenge/HomeScreen/index.html"
-       class="list-group-item list-group-item-action">
+    <a href="../HomeScreen/index.html"
+       class="list-group-item list-group-item-action" id="home">
         <i class="fas fa-home"></i>
         <span class="d-none d-xl-inline" style="font-weight: normal">Home</span>
     </a>
-    <a href="../Explore/index.html"
-       class="list-group-item list-group-item-action active">
+    <a href="../ExploreScreen/index.html"
+       class="list-group-item list-group-item-action" id="explore">
         <i class="fas fa-hashtag"></i>
         <span class="d-none d-xl-inline" style="font-weight: normal">Explore</span>
     </a>
@@ -52,6 +52,10 @@ const NavigationSidebar = () => {
         class="btn btn-primary btn-block rounded-pill">
         Tweet</a>
    </div>
+   <script>
+        const activeComponent = document.getElementById(active);
+        activeComponent.classList.add("active");
+    </script>
  `);
 }
 export default NavigationSidebar;

@@ -21,7 +21,7 @@ const PostsListItem = (
         <li className="list-group-item">
             <div className="row">
                 <div className="col-2">
-                    <img className="rounded-circle w-100" src={`../images/${post.avatarIcon}`}/>
+                    <img alt="avatar icon" className="rounded-circle w-100" src={`../images/${post.avatarIcon}`}/>
                 </div>
                 <div className="col-10 ">
                     <div>
@@ -37,7 +37,7 @@ const PostsListItem = (
                     </div>
                     <div className="border border-secondary rounded-4">
                         <div>
-                            <img src={`../images/${post.image}`} width="100%"/>
+                            <img alt="" src={`../images/${post.image}`} width="100%"/>
                         </div>
 
                         <div className="border-top border-secondary p-2">
@@ -55,25 +55,25 @@ const PostsListItem = (
                     <div className="row">
                         <ul className="nav mb-2 nav-tabs d-flex justify-content-around">
                             <li className="nav-item">
-                                <a className="nav-link text-secondary" href="#">
+                                <a href="/" className="nav-link text-secondary">
                                     <i className="bi bi-chat"></i>
                                     {post.comments}
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-secondary" href="#">
+                                <a href="/" className="nav-link text-secondary">
                                     <i className="bi bi-recycle"></i>
                                     {post.retweets}
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-secondary" href="#">
+                                <a href="/" className="nav-link text-secondary">
                                     <i className="bi bi-heart"></i>
                                     {post.likes}
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-secondary" href="#">
+                                <a href="/" className="nav-link text-secondary">
                                     <i className="bi bi-upload"></i>
                                 </a>
                             </li>

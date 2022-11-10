@@ -4,6 +4,7 @@ import "./index.css";
 const ExploreComponent = () => {
     return(
         <>
+            <h3>Explore</h3>
             <div className="row">
                 <div className="col-11 position-relative">
                     <input placeholder="Search Tuiter"

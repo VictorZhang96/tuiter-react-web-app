@@ -3,11 +3,20 @@ import NavigationSidebar
     from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";
 import ExploreComponent from "./explore";
-import {Routes, Route} from "react-router";
 import HomeComponent from "./home";
+import {Routes, Route} from "react-router";
+import whoReducer
+    from "./reducers/who-reducer";
+import tuitsReducer from "./tuits/tuits-reducer";
+import { configureStore }
+    from '@reduxjs/toolkit';
+import {Provider} from "react-redux";
+const store = configureStore(
+    {reducer: {who: whoReducer, tuits: tuitsReducer}});
 
 function Tuiter() {
     return (
+        <Provider store={store}>
         <div>
             <Nav/>
             <div className="row mt-2">
@@ -28,6 +37,7 @@ function Tuiter() {
                 </div>
             </div>
         </div>
+        </Provider>
     )
 }
 export default Tuiter

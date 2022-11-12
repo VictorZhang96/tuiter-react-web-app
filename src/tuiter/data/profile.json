@@ -1,0 +1,18 @@
+{
+    "_id": "111",
+    "firstName": "Victor",
+    "lastName": "Zhang",
+    "numberOfTuits": "1234",
+    "handle": "@xuchengzhang",
+    "profilePicture": "victor.jpeg",
+    "bannerPicture": "tuiter-banner.jpg",
+    "bio": "Tennis, Skiing, CS@KhouryCollege Northeastern University",
+    "website": "https://victorzhang96.github.io/",
+    "location": "Boston, MA",
+    "dateOfBirth": "2/7/1996",
+    "dateJoined": "Jan 2017",
+    "followingCount": 49,
+    "followersCount": 23
+}
+
+
